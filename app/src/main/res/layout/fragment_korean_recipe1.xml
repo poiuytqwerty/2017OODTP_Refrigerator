@@ -169,7 +169,7 @@
 
                     android:layout_marginLeft="175dp"
                     android:background="@drawable/unclickedstar"
-                    />
+                    android:onClick="GoKoreaRecipe_Favorite" />
 
             </RelativeLayout>
 

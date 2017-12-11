@@ -191,8 +191,7 @@
                     android:layout_gravity="center"
 
                     android:layout_marginLeft="175dp"
-                    android:background="@drawable/clickedstar"
-                    android:onClick="GoKoreaRecipe_Favorite" />
+                    android:background="@drawable/clickedstar" />
 
             </RelativeLayout>
         </LinearLayout>
