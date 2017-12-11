@@ -432,7 +432,7 @@ public class MainActivity extends AppCompatActivity
         FragmentManager manager = getSupportFragmentManager();
         manager.beginTransaction().replace(R.id.layoutForFragment, korea_recipe_favorite, korea_recipe_favorite.getTag()).commit();
     }
-
+//
     public void GoKoreaRecipe_Favorite_Favorite(View v){
         New_favorite korea_recipe_favorite = new New_favorite();
         FragmentManager manager = getSupportFragmentManager();
