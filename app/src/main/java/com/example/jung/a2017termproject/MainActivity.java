@@ -76,11 +76,7 @@ public class MainActivity extends AppCompatActivity
 
 
 
-         /*
-            builder.setSmallIcon(R.drawable.clickedstar).setTicker("파의 유통기한이 9일 2시간 10분 남았습니다.").setWhen(System.currentTimeMillis())
-                    .setNumber(1).setContentTitle("냉장고를 부탁해!").setContentText("파 0.5개의 유통기한이 9일 2시간 10분 남았습니다.")
-                    .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE).setContentIntent(pendingNotificationIntent).setAutoCancel(true).setOngoing(true);
-                    */
+
         //해당 부분은 API 4.1버전부터 작동합니다.
 
 //setSmallIcon - > 작은 아이콘 이미지
@@ -198,8 +194,8 @@ public class MainActivity extends AppCompatActivity
 
             PendingIntent pendingNotificationIntent = PendingIntent.getActivity(MainActivity.this, 0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
 
-            builder.setSmallIcon(R.drawable.clickedstar).setTicker("밥의 유통기한이 4일 2시간 01분 남았습니다.").setWhen(System.currentTimeMillis())
-                    .setNumber(1).setContentTitle("냉장고를 부탁해!").setContentText("밥 3개의 유통기한이 4일 2시간 01분 남았습니다.")
+            builder.setSmallIcon(R.drawable.clickedstar).setTicker("밥의 유통기한이 24시간 남았습니다.").setWhen(System.currentTimeMillis())
+                    .setNumber(1).setContentTitle("냉장고를 부탁해!").setContentText("밥 3개의 유통기한이 24시간 남았습니다.")
                     .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE).setContentIntent(pendingNotificationIntent).setAutoCancel(true).setOngoing(true);
 
             notificationManager.notify(1, builder.build()); // Notification send
@@ -266,8 +262,8 @@ public class MainActivity extends AppCompatActivity
 
             PendingIntent pendingNotificationIntent = PendingIntent.getActivity(MainActivity.this, 0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
 
-            builder.setSmallIcon(R.drawable.clickedstar).setTicker("새우 12개의 유통기한이 7일 2시간 10분 남았습니다.").setWhen(System.currentTimeMillis())
-                    .setNumber(1).setContentTitle("냉장고를 부탁해!").setContentText("새우 12개의 유통기한이 7일 2시간 10분 남았습니다.")
+            builder.setSmallIcon(R.drawable.clickedstar).setTicker("새우 12개의 유통기한이 24시간 남았습니다.").setWhen(System.currentTimeMillis())
+                    .setNumber(1).setContentTitle("냉장고를 부탁해!").setContentText("새우 12개의 유통기한이 24시간 남았습니다.")
                     .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE).setContentIntent(pendingNotificationIntent).setAutoCancel(true).setOngoing(true);
 
             notificationManager.notify(1, builder.build()); // Notification send
@@ -501,7 +497,6 @@ public class MainActivity extends AppCompatActivity
             StockIngredient new_ingredient = new StockIngredient(name, expiredDate, count);  //새로운 ingredient 객체 생성
             //mainDatabase.myStock.addIngredient(new_ingredient); //myStock에 add
 
-            Toast.makeText(getApplicationContext(), name + " " + count + "개의 유통기한이 12시간 남았습니다", Toast.LENGTH_LONG).show();
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -54,7 +54,7 @@ FAVOIRTE RECIPE"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:background="@drawable/when_star_is_clicked"
+            android:background="@drawable/unclickedstar"
             android:gravity="right" />
     </RelativeLayout>
 
@@ -89,7 +89,7 @@ FAVOIRTE RECIPE"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:background="@drawable/when_star_is_clicked"
+            android:background="@drawable/unclickedstar"
             android:gravity="right" />
     </RelativeLayout>
 
@@ -125,7 +125,7 @@ FAVOIRTE RECIPE"
             android:layout_height="40dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:background="@drawable/when_star_is_clicked"
+            android:background="@drawable/unclickedstar"
             android:gravity="right" />
     </RelativeLayout>
 </LinearLayout>
