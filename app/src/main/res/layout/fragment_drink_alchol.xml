@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jung.a2017termproject.drink_alchol">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--어플 들어가자마자 로딩되는 fragment-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="　　　　　　　　　　　　　　　　　　　
+WHAT'S THE WEATHER LIKE TODAY ?"
+            android:textSize = "20dp"
+            android:gravity="top|center"
+            android:background="@drawable/pic000"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="RECOMANDATION FOR WEATHER
+--------------------------------------------------------"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="pick the weather"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:background="@drawable/beerbtn"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:onClick="gobeer"/>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_toLeftOf="@+id/imageButton3"
+                android:layout_toStartOf="@+id/imageButton3"
+                android:background="@drawable/makbtn"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:onClick="goMakgeolli"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_toEndOf="@+id/imageButton4"
+                android:layout_toRightOf="@+id/imageButton4"
+                android:background="@drawable/winebtn"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:onClick="goWine"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:background="@drawable/sojubtn"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:onClick="goSoju"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

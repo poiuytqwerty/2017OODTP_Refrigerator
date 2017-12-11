@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jung.a2017termproject.recommend_stock_recipe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+
+                android:text="　　　　　　　　　　　　　　　　　　　　
+STOCK RECIPE1"
+                android:textSize = "20dp"
+                android:gravity="top|center"
+                android:background="@drawable/pic000"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/shrimpgang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="To add ingredinet, Click this button" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/plus2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="새우 "/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="전분 "/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="SEASONING"
+                    android:background="@drawable/appbarbg01"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1. 고추장"  />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2. 설탕"  />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3. 간장"  />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4. 다진마늘"  />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="How to cook"
+                android:background="@drawable/appbarbg01"
+                android:textSize="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1. 손질한 새우와 전분을 비닐 봉지에 넣고 흔들어준다." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2. 기름에 새우를 튀긴다." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3. 볼에 양념장 재료를 넣고 잘 섞어준다." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4. 팬에서 새우와 양념장을 섞어 볶아 마무리 한다." />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:layout_marginLeft="175dp"
+                        android:background="@drawable/unclickedstar"
+                        />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

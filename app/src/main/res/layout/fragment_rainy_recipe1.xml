@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jung.a2017termproject.Rainy_recipe1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+
+                android:text="　　　　　　　　　　　　　　　　　　　　
+밀푀유 나베"
+                android:textSize = "20dp"
+                android:gravity="top|center"
+                android:background="@drawable/pic000"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/nabe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="To add ingredinet, Click this button" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/plus2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="불고기용 소고기 "/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="알배추 "/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="100dp"
+
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="깻잎"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="어묵 "/>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="버섯 "/>
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="250dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="숙주나물 "/>
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="300dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="310dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="멸치다시팩 "/>
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="350dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="가쓰오부시 "/>
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="SEASONING"
+                    android:background="@drawable/appbarbg01"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1. 국간장"  />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="2. 마늘"  />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="How to cook"
+                android:background="@drawable/appbarbg01"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. 물에 가쓰오부시, 멸치다시팩을 넣고 팔팔 끓여준다." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. 육수에 다진 마늘, 간장을 넣고 계속 끓인다." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. 알배추 소고기 깻잎 순으로 차곡차곡 쌓은 후 반을 잘라 냄비에 넣어준다." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4. 그리고 어묵, 버섯을 넣고 마지막으로 육수를 부어 끓인다." />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="175dp"
+                    android:background="@drawable/unclickedstar"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

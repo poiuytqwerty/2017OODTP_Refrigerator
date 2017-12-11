@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name = "health">
+        <item >다이어트</item>
+        <item >저염식</item>
+        <item >고지방</item>
+        <item >고단백</item>
+        <item >건강상태 무관</item>
+
+    </string-array>
+</resources>

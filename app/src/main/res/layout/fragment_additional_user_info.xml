@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/textView7"
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/real4"
+                android:onClick="GoUserInfo"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/real3"
+                android:onClick="goAdditionalUserInfo" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:onClick="GoAddIngredient"
+                android:scaleType="centerCrop"
+                android:text="SET YOUR INFORMATION
+--------------------------------------------------------------------------" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="57dp"
+                android:layout_marginStart="57dp"
+                android:background="@drawable/shoppingcart"
+                android:onClick="goShoppingBasket"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="SHOPPING BASKET"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="131dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/favorite"
+                android:onClick="goFavoriteRecipe"
+                android:layout_marginLeft="58dp"
+                android:layout_marginStart="58dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="FAVORITE RECIPE"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="131dp"
+                android:onClick="GoKoreaRecipe_Favorite_Favorite"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/memo"
+                android:onClick="goMemo"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="MEMO"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="131dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

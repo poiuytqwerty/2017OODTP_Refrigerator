@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jung.a2017termproject.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--어플 들어가자마자 로딩되는 fragment-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/pic001"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:text="REFRIGERATOR
+CARE APP"
+            android:textSize="25sp"
+            android:layout_marginTop="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/weather"
+            android:gravity="center"
+            android:onClick="GoWeather"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/recommendbutton"
+            android:gravity="center"
+            android:onClick="goRecommend"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="--------------------------------------------------------------
+RANDOM RECOMMENDATION"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="GoRandomRecipe1"
+                android:src="@drawable/saubab" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@+id/imageButton7"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageButton7"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/udong" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="20dp"
+                android:layout_above="@+id/imageButton6"
+                android:layout_toLeftOf="@+id/imageButton4"
+                android:layout_toStartOf="@+id/imageButton4"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/onigiri" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jabchae"
+                android:layout_above="@+id/imageButton3"
+                android:layout_alignRight="@+id/imageButton3"
+                android:layout_alignEnd="@+id/imageButton3"
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

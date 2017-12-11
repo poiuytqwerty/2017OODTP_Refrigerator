@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jung.a2017termproject.chinese_recipe1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="Chinese_recipe1"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/samgyeobsalad" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="korea_ingredient: " />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:text="ing1" />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="55dp"
+                    android:layout_marginLeft="55dp"
+                    android:text="ing2"
+                    android:layout_height="match_parent" />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="110dp"
+                    android:text="ing3"
+                    />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="165dp"
+                    android:text="ing4" />
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:text="ing5"
+                    android:layout_marginLeft="220dp" />
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="55dp"
+                    android:layout_marginLeft="275dp"
+                    android:layout_height="match_parent"
+                    android:text="ing6"/>
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="korea_spicy : "  />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" korean_recipe :
+1rleisjdlkd
+2.dlskdfjlsdkfj
+3.dlkfjlskdjflskdj
+4.dlkfjlsdkjfls
+5.sdlkfsjldkfjlsdk" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

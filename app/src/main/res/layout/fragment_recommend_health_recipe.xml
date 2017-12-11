@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jung.a2017termproject.recommend_health_recipe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+
+                android:text="　　　　　　　　　　　　　　　　　　　　
+두부 데리야끼 피자"
+                android:textSize = "20dp"
+                android:gravity="top|center"
+                android:background="@drawable/pic000"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tofukimchi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="To add ingredinet, Click this button" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/plus2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="두부 "/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="또띠야 "/>
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="100dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="다진양파"/>
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="150dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="모짜렐라 치즈"/>
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/plus2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="다진청양고추"/>
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="SEASONING"
+                    android:background="@drawable/appbarbg01"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1. 데리야끼 소스"  />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="How to cook"
+                android:background="@drawable/appbarbg01"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="
+1. 또띠아에 데리야끼 소스를 바른다.
+2. 또띠아에 치즈를 올리고 으깬두부와 다진 고추를 섞은 것을 올린 후에 다시 치즈를 올린다.
+3. 180도 오븐에 10분 구워준다. 혹은 전자렌지에 2분 돌려준다.
+" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
